@@ -3,35 +3,52 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Starbucks</title>
-    <link rel="stylesheet" href="css/estilo.css" type="text/css">
+    <title>Formula 1</title>
+    <link rel="stylesheet" href="css/estilos.css" type="text/css">
 </head>
 <body>
     <section>
+        <div class="circulo"></div>
         <header>
-            <a href="#" class="logo"><img src="images/logo.png" alt="logo"></a>
+            <a href="#" class="logo"><img src="images/1652509-200.png" alt="logo"></a>
             <ul>
                 <li><a href="#">Home</a></li>
-                <li><a href="#">Home</a></li>
-                <li><a href="#">Home</a></li>
-                <li><a href="#">Home</a></li>
-                
+                <li><a href="#">Menu</a></li>
+                <li><a href="#">Novidades</a></li>
+                <li><a href="#">Contato</a></li>
             </ul>
         </header>
         <main class="conteudo">
             <div class="caixa-texto">
-                <h2>Não é somente Café<br>
-                    É <span>Starbucks</span>
+                <h2>
+                    Não é só uma corrida<br>
+                    é <span>Formula 1</span>
                 </h2>
                 <p>
-                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Et, vel accusamus! Neque, architecto distinctio soluta vel quasi nulla nobis eum fuga suscipit exercitationem dolores accusantium deserunt dolorem unde consectetur. Distinctio!
+                    Escolha sua maquina poderosa e ganhe todas as competições, vamos lá!!! 
+                    Não tenha medo sinta a potência!
                 </p>
-            <a href="#">Leia mais</a>
+                <a href="#">Leia mais</a>
             </div>
             <div class="caixa-imagem">
-                <img src="images/img1.png" alt="Copo verde"
-                class="starbucks">
+                <img src="images/f1-2722971_1280.png" alt="Bandeira" class="formula1">
             </div>
+
+            <ul class="miniaturas">
+                <li><img src="images/ferrari-96052_1280.jpg" alt="Ferrari Vermelha" onclick="TrocarImagem('images/ferrari-96052_1280.jpg');
+                 MudarCirculo('#FD1818')"></li>
+                <li><img src="images/maclaren-97026_1280.jpg" alt="Mc Laren Azul" onclick="TrocarImagem('images/maclaren-97026_1280.jpg');
+                 MudarCirculo('#2421E5')"></li>
+                <li><img src="images/arrows-96053_1280.png" alt="Arrows Amarela" onclick="TrocarImagem('images/arrows-96053_1280.png');
+                 MudarCirculo('#D8D816')"></li>
+            </ul>
+
+            <ul class="redes-sociais">
+                <li><a href="#"><img src="images/facebook.png" alt="facebook"></a></li>
+                <li><a href="#"><img src="images/instagram.png" alt="instagram"></a></li>
+                <li><a href="#"><img src="images/twitter.png" alt="twitter"></a></li>
+            </ul>
+
         </main>
     </section>
     <script src="js/funcoes.js"></script>
